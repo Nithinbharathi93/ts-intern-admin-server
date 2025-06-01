@@ -17,7 +17,7 @@ const PORT = 8000;
 const sheetId = process.env.SHEET_ID;
 const tabName = 'Users';
 const range = process.env.DATA_RANGE;
-const serviceAccountKeyFile = './n8n-proj-457706-6c87a28844b7.json';
+const serviceAccountKeyFile = './test.json';
 
 async function getGoogleSheetClient() {
     const auth = new google.auth.GoogleAuth({
